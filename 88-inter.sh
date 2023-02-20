@@ -12,6 +12,8 @@
 list_files() {
 cat <<EOF
 etc/fonts.xml
+fonts/CutiveMono.ttf
+fonts/DroidSansMono.ttf
 fonts/Inter-Black.ttf
 fonts/Inter-BlackItalic.ttf
 fonts/Inter-Bold.ttf
@@ -30,6 +32,10 @@ fonts/Inter-SemiBold.ttf
 fonts/Inter-SemiBoldItalic.ttf
 fonts/Inter-Thin.ttf
 fonts/Inter-ThinItalic.ttf
+fonts/NotoSerif-Bold.ttf
+fonts/NotoSerif-BoldItalic.ttf
+fonts/NotoSerif-Italic.ttf
+fonts/NotoSerif-Regular.ttf
 fonts/RobotoFallback-VF.ttf
 EOF
 }
