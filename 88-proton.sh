@@ -25,7 +25,7 @@ fonts/Inter-ExtraLightItalic.ttf
 fonts/Inter-Italic.ttf
 fonts/Inter-Light.ttf
 fonts/Inter-LightItalic.ttf
-fonts/Inter-MediumI.ttf
+fonts/Inter-Medium.ttf
 fonts/Inter-MediumItalic.ttf
 fonts/Inter-Regular.ttf
 fonts/Inter-SemiBold.ttf
