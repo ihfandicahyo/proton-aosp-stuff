@@ -24,92 +24,92 @@
 <familyset version="23">
     <!-- first font is default -->
     <family name="sans-serif">
-        <font weight="100" style="normal">Inter-Thin.ttf
+        <font weight="100" style="normal">Inter-VF.ttf
           <axis tag="ital" stylevalue="0" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="100" />
         </font>
-        <font weight="200" style="normal">Inter-ExtraLight.ttf
+        <font weight="200" style="normal">Inter-VF.ttf
           <axis tag="ital" stylevalue="0" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="200" />
         </font>
-        <font weight="300" style="normal">Inter-Light.ttf
+        <font weight="300" style="normal">Inter-VF.ttf
           <axis tag="ital" stylevalue="0" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="300" />
         </font>
-        <font weight="400" style="normal">Inter-Regular.ttf
+        <font weight="400" style="normal">Inter-VF.ttf
           <axis tag="ital" stylevalue="0" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="400" />
         </font>
-        <font weight="500" style="normal">Inter-Medium.ttf
+        <font weight="500" style="normal">Inter-VF.ttf
           <axis tag="ital" stylevalue="0" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="500" />
         </font>
-        <font weight="600" style="normal">Inter-SemiBold.ttf
+        <font weight="600" style="normal">Inter-VF.ttf
           <axis tag="ital" stylevalue="0" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="600" />
         </font>
-        <font weight="700" style="normal">Inter-Bold.ttf
+        <font weight="700" style="normal">Inter-VF.ttf
           <axis tag="ital" stylevalue="0" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="700" />
         </font>
-        <font weight="800" style="normal">Inter-ExtraBold.ttf
+        <font weight="800" style="normal">Inter-VF.ttf
           <axis tag="ital" stylevalue="0" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="800" />
         </font>
-        <font weight="900" style="normal">Inter-Black.ttf
+        <font weight="900" style="normal">Inter-VF.ttf
           <axis tag="ital" stylevalue="0" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="900" />
         </font>
-        <font weight="100" style="italic">Inter-ThinItalic.ttf
+        <font weight="100" style="italic">Inter-VF.ttf
           <axis tag="ital" stylevalue="1" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="100" />
         </font>
-        <font weight="200" style="italic">Inter-ExtraLightItalic.ttf
+        <font weight="200" style="italic">Inter-VF.ttf
           <axis tag="ital" stylevalue="1" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="200" />
         </font>
-        <font weight="300" style="italic">Inter-LightItalic.ttf
+        <font weight="300" style="italic">Inter-VF.ttf
           <axis tag="ital" stylevalue="1" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="300" />
         </font>
-        <font weight="400" style="italic">Inter-Italic.ttf
+        <font weight="400" style="italic">Inter-VF.ttf
           <axis tag="ital" stylevalue="1" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="400" />
         </font>
-        <font weight="500" style="italic">Inter-MediumItalic.ttf
+        <font weight="500" style="italic">Inter-VF.ttf
           <axis tag="ital" stylevalue="1" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="500" />
         </font>
-        <font weight="600" style="italic">Inter-SemiBoldItalic.ttf
+        <font weight="600" style="italic">Inter-VF.ttf
           <axis tag="ital" stylevalue="1" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="600" />
         </font>
-        <font weight="700" style="italic">Inter-BoldItalic.ttf
+        <font weight="700" style="italic">Inter-VF.ttf
           <axis tag="ital" stylevalue="1" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="700" />
         </font>
-        <font weight="800" style="italic">Inter-ExtraBoldItalic.ttf
+        <font weight="800" style="italic">Inter-VF.ttf
           <axis tag="ital" stylevalue="1" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="800" />
         </font>
-        <font weight="900" style="italic">Inter-BlackItalic.ttf
+        <font weight="900" style="italic">Inter-VF.ttf
           <axis tag="ital" stylevalue="1" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="900" />
@@ -128,92 +128,92 @@
     <alias name="verdana" to="sans-serif" />
 
     <family name="sans-serif-condensed">
-      <font weight="100" style="normal">Inter-Thin.ttf
+      <font weight="100" style="normal">Inter-VF.ttf
         <axis tag="ital" stylevalue="0" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="100" />
       </font>
-      <font weight="200" style="normal">Inter-ExtraLight.ttf
+      <font weight="200" style="normal">Inter-VF.ttf
         <axis tag="ital" stylevalue="0" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="200" />
       </font>
-      <font weight="300" style="normal">Inter-Light.ttf
+      <font weight="300" style="normal">Inter-VF.ttf
         <axis tag="ital" stylevalue="0" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="300" />
       </font>
-      <font weight="400" style="normal">Inter-Regular.ttf
+      <font weight="400" style="normal">Inter-VF.ttf
         <axis tag="ital" stylevalue="0" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="400" />
       </font>
-      <font weight="500" style="normal">Inter-Medium.ttf
+      <font weight="500" style="normal">Inter-VF.ttf
         <axis tag="ital" stylevalue="0" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="500" />
       </font>
-      <font weight="600" style="normal">Inter-SemiBold.ttf
+      <font weight="600" style="normal">Inter-VF.ttf
         <axis tag="ital" stylevalue="0" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="600" />
       </font>
-      <font weight="700" style="normal">Inter-Bold.ttf
+      <font weight="700" style="normal">Inter-VF.ttf
         <axis tag="ital" stylevalue="0" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="700" />
       </font>
-      <font weight="800" style="normal">Inter-ExtraBold.ttf
+      <font weight="800" style="normal">Inter-VF.ttf
         <axis tag="ital" stylevalue="0" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="800" />
       </font>
-      <font weight="900" style="normal">Inter-Black.ttf
+      <font weight="900" style="normal">Inter-VF.ttf
         <axis tag="ital" stylevalue="0" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="900" />
       </font>
-      <font weight="100" style="italic">Inter-ThinItalic.ttf
+      <font weight="100" style="italic">Inter-VF.ttf
         <axis tag="ital" stylevalue="1" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="100" />
       </font>
-      <font weight="200" style="italic">Inter-ExtraLightItalic.ttf
+      <font weight="200" style="italic">Inter-VF.ttf
         <axis tag="ital" stylevalue="1" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="200" />
       </font>
-      <font weight="300" style="italic">Inter-LightItalic.ttf
+      <font weight="300" style="italic">Inter-VF.ttf
         <axis tag="ital" stylevalue="1" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="300" />
       </font>
-      <font weight="400" style="italic">Inter-Italic.ttf
+      <font weight="400" style="italic">Inter-VF.ttf
         <axis tag="ital" stylevalue="1" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="400" />
       </font>
-      <font weight="500" style="italic">Inter-MediumItalic.ttf
+      <font weight="500" style="italic">Inter-VF.ttf
         <axis tag="ital" stylevalue="1" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="500" />
       </font>
-      <font weight="600" style="italic">Inter-SemiBoldItalic.ttf
+      <font weight="600" style="italic">Inter-VF.ttf
         <axis tag="ital" stylevalue="1" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="600" />
       </font>
-      <font weight="700" style="italic">Inter-BoldItalic.ttf
+      <font weight="700" style="italic">Inter-VF.ttf
         <axis tag="ital" stylevalue="1" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="700" />
       </font>
-      <font weight="800" style="italic">Inter-ExtraBoldItalic.ttf
+      <font weight="800" style="italic">Inter-VF.ttf
         <axis tag="ital" stylevalue="1" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="800" />
       </font>
-      <font weight="900" style="italic">Inter-BlackItalic.ttf
+      <font weight="900" style="italic">Inter-VF.ttf
         <axis tag="ital" stylevalue="1" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="900" />
