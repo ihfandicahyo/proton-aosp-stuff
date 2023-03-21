@@ -2,9 +2,9 @@
 
 Credit:
 - [Base](https://github.com/kdrag0n) for all base of this repo
-- [Inter](https://github.com/rsms/inter) for most text
-- [Fira Code](https://github.com/tonsky/FiraCode) for monospace text
-- [Source Serif](https://github.com/adobe-fonts/source-serif) for serif text
+- [Inter](https://github.com/rsms/inter) for most text - 3.19
+- [Fira Code](https://github.com/tonsky/FiraCode) for monospace text - 5.002
+- [Source Serif](https://github.com/adobe-fonts/source-serif) for serif text - 4.004
 
 Inter was chosen as the UI font for its cleanliness and legibility; it is neutral and looks similar to Apple's San Francisco UI font. Because it was specifically designed for use in GUIs, it is a great replacement for Roboto on Android.
 
