@@ -15,7 +15,6 @@ etc/fonts.xml
 fonts/CutiveMono.ttf
 fonts/DroidSansMono.ttf
 fonts/Inter-VF.ttf
-fonts/Inter-Regular.ttf
 fonts/NotoSerif-Bold.ttf
 fonts/NotoSerif-BoldItalic.ttf
 fonts/NotoSerif-Italic.ttf
