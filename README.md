@@ -1,7 +1,7 @@
 # ProtonAOSP Stuff
 
 Credit:
-- [Base] (https://github.com/kdrag0n) for all base of this repo
+- [Base](https://github.com/kdrag0n) for all base of this repo
 - [Inter](https://github.com/rsms/inter) for most text
 - [Fira Code](https://github.com/tonsky/FiraCode) for monospace text
 - [Source Serif](https://github.com/adobe-fonts/source-serif) for serif text
