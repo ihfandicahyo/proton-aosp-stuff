@@ -24,47 +24,47 @@
 <familyset version="23">
     <!-- first font is default -->
     <family name="sans-serif">
-        <font weight="100" style="normal">Inter-VF.ttf
+        <font weight="100" style="normal">Inter.ttf
           <axis tag="ital" stylevalue="0" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="100" />
         </font>
-        <font weight="200" style="normal">Inter-VF.ttf
+        <font weight="200" style="normal">Inter.ttf
           <axis tag="ital" stylevalue="0" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="200" />
         </font>
-        <font weight="300" style="normal">Inter-VF.ttf
+        <font weight="300" style="normal">Inter.ttf
           <axis tag="ital" stylevalue="0" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="300" />
         </font>
-        <font weight="400" style="normal">Inter-VF.ttf
+        <font weight="400" style="normal">Inter.ttf
           <axis tag="ital" stylevalue="0" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="400" />
         </font>
-        <font weight="500" style="normal">Inter-VF.ttf
+        <font weight="500" style="normal">Inter.ttf
           <axis tag="ital" stylevalue="0" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="500" />
         </font>
-        <font weight="600" style="normal">Inter-VF.ttf
+        <font weight="600" style="normal">Inter.ttf
           <axis tag="ital" stylevalue="0" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="600" />
         </font>
-        <font weight="700" style="normal">Inter-VF.ttf
+        <font weight="700" style="normal">Inter.ttf
           <axis tag="ital" stylevalue="0" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="700" />
         </font>
-        <font weight="800" style="normal">Inter-VF.ttf
+        <font weight="800" style="normal">Inter.ttf
           <axis tag="ital" stylevalue="0" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="800" />
         </font>
-        <font weight="900" style="normal">Inter-VF.ttf
+        <font weight="900" style="normal">Inter.ttf
           <axis tag="ital" stylevalue="0" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="900" />
@@ -128,47 +128,47 @@
     <alias name="verdana" to="sans-serif" />
 
     <family name="sans-serif-condensed">
-      <font weight="100" style="normal">Inter-VF.ttf
+      <font weight="100" style="normal">Inter.ttf
         <axis tag="ital" stylevalue="0" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="100" />
       </font>
-      <font weight="200" style="normal">Inter-VF.ttf
+      <font weight="200" style="normal">Inter.ttf
         <axis tag="ital" stylevalue="0" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="200" />
       </font>
-      <font weight="300" style="normal">Inter-VF.ttf
+      <font weight="300" style="normal">Inter.ttf
         <axis tag="ital" stylevalue="0" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="300" />
       </font>
-      <font weight="400" style="normal">Inter-VF.ttf
+      <font weight="400" style="normal">Inter.ttf
         <axis tag="ital" stylevalue="0" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="400" />
       </font>
-      <font weight="500" style="normal">Inter-VF.ttf
+      <font weight="500" style="normal">Inter.ttf
         <axis tag="ital" stylevalue="0" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="500" />
       </font>
-      <font weight="600" style="normal">Inter-VF.ttf
+      <font weight="600" style="normal">Inter.ttf
         <axis tag="ital" stylevalue="0" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="600" />
       </font>
-      <font weight="700" style="normal">Inter-VF.ttf
+      <font weight="700" style="normal">Inter.ttf
         <axis tag="ital" stylevalue="0" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="700" />
       </font>
-      <font weight="800" style="normal">Inter-VF.ttf
+      <font weight="800" style="normal">Inter.ttf
         <axis tag="ital" stylevalue="0" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="800" />
       </font>
-      <font weight="900" style="normal">Inter-VF.ttf
+      <font weight="900" style="normal">Inter.ttf
         <axis tag="ital" stylevalue="0" />
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="900" />
@@ -1540,98 +1540,6 @@
         <font weight="700" style="normal" postScriptName="NotoSerifYezidi-Regular">
             NotoSerifYezidi-VF.ttf
             <axis tag="wght" stylevalue="700"/>
-        </font>
-    </family>
-	<family>
-        <font weight="100" style="normal">RobotoFallback-VF.ttf
-            <axis tag="ital" stylevalue="0"/>
-            <axis tag="wdth" stylevalue="100"/>
-            <axis tag="wght" stylevalue="100"/>
-        </font>
-        <font weight="100" style="italic">RobotoFallback-VF.ttf
-            <axis tag="ital" stylevalue="1"/>
-            <axis tag="wdth" stylevalue="100"/>
-            <axis tag="wght" stylevalue="100"/>
-        </font>
-        <font weight="200" style="normal">RobotoFallback-VF.ttf
-            <axis tag="ital" stylevalue="0"/>
-            <axis tag="wdth" stylevalue="100"/>
-            <axis tag="wght" stylevalue="200"/>
-        </font>
-        <font weight="200" style="italic">RobotoFallback-VF.ttf
-            <axis tag="ital" stylevalue="1"/>
-            <axis tag="wdth" stylevalue="100"/>
-            <axis tag="wght" stylevalue="200"/>
-        </font>
-        <font weight="300" style="normal">RobotoFallback-VF.ttf
-            <axis tag="ital" stylevalue="0"/>
-            <axis tag="wdth" stylevalue="100"/>
-            <axis tag="wght" stylevalue="300"/>
-        </font>
-        <font weight="300" style="italic">RobotoFallback-VF.ttf
-            <axis tag="ital" stylevalue="1"/>
-            <axis tag="wdth" stylevalue="100"/>
-            <axis tag="wght" stylevalue="300"/>
-        </font>
-        <font weight="400" style="normal">RobotoFallback-VF.ttf
-            <axis tag="ital" stylevalue="0"/>
-            <axis tag="wdth" stylevalue="100"/>
-            <axis tag="wght" stylevalue="400"/>
-        </font>
-        <font weight="400" style="italic">RobotoFallback-VF.ttf
-            <axis tag="ital" stylevalue="1"/>
-            <axis tag="wdth" stylevalue="100"/>
-            <axis tag="wght" stylevalue="400"/>
-        </font>
-        <font weight="500" style="normal">RobotoFallback-VF.ttf
-            <axis tag="ital" stylevalue="0"/>
-            <axis tag="wdth" stylevalue="100"/>
-            <axis tag="wght" stylevalue="500"/>
-        </font>
-        <font weight="500" style="italic">RobotoFallback-VF.ttf
-            <axis tag="ital" stylevalue="1"/>
-            <axis tag="wdth" stylevalue="100"/>
-            <axis tag="wght" stylevalue="500"/>
-        </font>
-        <font weight="600" style="normal">RobotoFallback-VF.ttf
-            <axis tag="ital" stylevalue="0"/>
-            <axis tag="wdth" stylevalue="100"/>
-            <axis tag="wght" stylevalue="600"/>
-        </font>
-        <font weight="600" style="italic">RobotoFallback-VF.ttf
-            <axis tag="ital" stylevalue="1"/>
-            <axis tag="wdth" stylevalue="100"/>
-            <axis tag="wght" stylevalue="600"/>
-        </font>
-        <font weight="700" style="normal">RobotoFallback-VF.ttf
-            <axis tag="ital" stylevalue="0"/>
-            <axis tag="wdth" stylevalue="100"/>
-            <axis tag="wght" stylevalue="700"/>
-        </font>
-        <font weight="700" style="italic">RobotoFallback-VF.ttf
-            <axis tag="ital" stylevalue="1"/>
-            <axis tag="wdth" stylevalue="100"/>
-            <axis tag="wght" stylevalue="700"/>
-        </font>
-        <font weight="800" style="normal">RobotoFallback-VF.ttf
-            <axis tag="ital" stylevalue="0"/>
-            <axis tag="wdth" stylevalue="100"/>
-            <axis tag="wght" stylevalue="800"/>
-        </font>
-        <font weight="800" style="italic">RobotoFallback-VF.ttf
-            <axis tag="ital" stylevalue="1"/>
-            <axis tag="wdth" stylevalue="100"/>
-            <axis tag="wght" stylevalue="800"/>
-        </font>
-        <font weight="900" style="normal">RobotoFallback-VF.ttf
-            <axis tag="ital" stylevalue="0"/>
-            <axis tag="wdth" stylevalue="100"/>
-            <axis tag="wght" stylevalue="900"/>
-        </font>
-        <font weight="900" style="italic">RobotoFallback-VF.ttf
-            <axis tag="ital" stylevalue="1"/>
-            <axis tag="wdth" stylevalue="100"/>
-            <axis tag="wght" stylevalue="900"/>
         </font>
     </family>
 </familyset>
