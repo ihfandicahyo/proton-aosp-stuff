@@ -43,6 +43,7 @@
           <axis tag="ital" stylevalue="0" />
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="400" />
+	</font>
         <font weight="500" style="normal">Roboto-Regular.ttf
           <axis tag="ital" stylevalue="0" />
           <axis tag="wdth" stylevalue="100" />
