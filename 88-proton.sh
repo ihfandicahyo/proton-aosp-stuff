@@ -14,12 +14,13 @@ cat <<EOF
 etc/fonts.xml
 fonts/CutiveMono.ttf
 fonts/DroidSansMono.ttf
-fonts/Inter.ttf
-fonts/Inter-Italic.ttf
 fonts/NotoSerif-Bold.ttf
 fonts/NotoSerif-BoldItalic.ttf
 fonts/NotoSerif-Italic.ttf
 fonts/NotoSerif-Regular.ttf
+fonts/Roboto-Italic.ttf
+fonts/Roboto-Regular.ttf
+fonts/RobotoStatic-Regular.ttf
 EOF
 }
 
