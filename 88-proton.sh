@@ -20,6 +20,7 @@ fonts/NotoSerif-Italic.ttf
 fonts/NotoSerif-Regular.ttf
 fonts/Roboto-Italic.ttf
 fonts/Roboto-Regular.ttf
+fonts/RobotoFallback-VF.ttf
 fonts/RobotoStatic-Regular.ttf
 EOF
 }
