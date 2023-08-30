@@ -12,6 +12,7 @@
 list_files() {
 cat <<EOF
 etc/fonts.xml
+fonts/FiraCode-Regular.ttf
 fonts/Inter-Black.ttf
 fonts/Inter-BlackItalic.ttf
 fonts/Inter-Bold.ttf
@@ -25,6 +26,10 @@ fonts/Inter-Regular.ttf
 fonts/Inter-Thin.ttf
 fonts/Inter-ThinItalic.ttf
 fonts/RobotoFallback-VF.ttf
+fonts/SourceSerif4-Bold.ttf
+fonts/SourceSerif4-BoldIt.ttf
+fonts/SourceSerif4-It.ttf
+fonts/SourceSerif4-Regular.ttf
 EOF
 }
 
