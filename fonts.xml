@@ -60,10 +60,10 @@
     <alias name="sans-serif-condensed-medium" to="sans-serif-condensed" weight="500" />
 
     <family name="serif">
-        <font weight="400" style="normal">NotoSerif-Regular.ttf</font>
-        <font weight="700" style="normal">NotoSerif-Bold.ttf</font>
-        <font weight="400" style="italic">NotoSerif-Italic.ttf</font>
-        <font weight="700" style="italic">NotoSerif-BoldItalic.ttf</font>
+        <font weight="400" style="normal">SourceSerif4-Regular.ttf</font>
+        <font weight="700" style="normal">SourceSerif4-Bold.ttf</font>
+        <font weight="400" style="italic">SourceSerif4-It.ttf</font>
+        <font weight="700" style="italic">SourceSerif4-BoldIt.ttf</font>
     </family>
     <alias name="serif-bold" to="serif" weight="700" />
     <alias name="times" to="serif" />
@@ -76,13 +76,13 @@
     <alias name="ITC Stone Serif" to="serif" />
 
     <family name="monospace">
-        <font weight="400" style="normal">DroidSansMono.ttf</font>
+        <font weight="400" style="normal">FiraCode-Regular.ttf</font>
     </family>
     <alias name="sans-serif-monospace" to="monospace" />
     <alias name="monaco" to="monospace" />
 
     <family name="serif-monospace">
-        <font weight="400" style="normal">CutiveMono.ttf</font>
+        <font weight="400" style="normal">FiraCode-Regular.ttf</font>
     </family>
     <alias name="courier" to="serif-monospace" />
     <alias name="courier new" to="serif-monospace" />
