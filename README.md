@@ -17,3 +17,5 @@ All fonts included in this module are open-source and licensed under the SIL Ope
 To maximize compatibility, all font names have been patched to match the original fonts. This fixes some issues in third-party apps, such Firefox falling back to Fira Sans instead of using the new fonts.
 
 Additionally, Roboto will be used as a fallback for characters not supported by Inter. This is done by patching Roboto (which is included as a variable font to save space) to create a fallback variant and registering it as a proper fallback rather than modifying the Inter font itself. As a result, most text will be rendered with the original Inter font, and unsupported characters will still be displayed with proper metrics and hinting.
+
+LineageOS 19 use 20-VF branch.
