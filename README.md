@@ -2,7 +2,7 @@
 
 Credit:
 - [Base](https://github.com/kdrag0n) for all base of this repo
-- [Inter](https://github.com/rsms/inter) for most text - 4.0-beta9g
+- [Inter](https://github.com/rsms/inter) for most text - 4.0
 - [Fira Code](https://github.com/tonsky/FiraCode) for monospace text - 6.2
 - [Source Serif](https://github.com/adobe-fonts/source-serif) for serif text - 4.005
 
