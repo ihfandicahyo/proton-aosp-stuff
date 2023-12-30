@@ -15,8 +15,8 @@ All fonts included in this repo are open-source and licensed under the SIL Open 
 
 ## Compatibility
 
-Compatible with Android 13 (i.e not costum vendor: MIUI, OneUI, etc). This fixes some issues in third-party apps, such Firefox falling back to Fira Sans instead of using the new fonts.
+Compatible with Android 14 (i.e not costum vendor: MIUI, OneUI, etc). This fixes some issues in third-party apps, such Firefox falling back to Fira Sans instead of using the new fonts.
 
 Additionally, Roboto will be used as a fallback for characters not supported by Inter. A fallback variant and registering it as a proper fallback rather than modifying the Inter font itself. As a result, most text will be rendered with the original Inter font, and unsupported characters will still be displayed with proper metrics and hinting.
 
-Tested on LineageOS-20
+Tested on LineageOS-21 YSL
