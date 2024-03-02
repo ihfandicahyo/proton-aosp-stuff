@@ -5,7 +5,7 @@ Credit:
 - [Inter](https://github.com/rsms/inter) for most text - 4.0
 - [Fira Code](https://github.com/tonsky/FiraCode) for monospace text - 6.2
 - [Source Serif](https://github.com/adobe-fonts/source-serif) for serif text - 4.005
-- [Config](https://github.com/LineageOS/android_frameworks_base/blob/lineage-21.0/data/fonts/fonts.xml) fonts.xml
+- [Config]([https://github.com/LineageOS/android_frameworks_base/blob/lineage-21.0/data/fonts/fonts.xml](https://dumps.tadiphone.dev/dumps/samsung/e3q/-/blob/e3qxxx-user-14-UP1A.231005.007-S928BXXU1AXB5-release-keys/system/system/etc/fonts_additional.xml)) fonts.xml
 
 Inter was chosen as the UI font for its cleanliness and legibility; it is neutral and looks similar to Apple's San Francisco UI font. Because it was specifically designed for use in GUIs, it is a great replacement for Roboto on Android.
 
