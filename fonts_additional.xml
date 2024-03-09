@@ -114,7 +114,7 @@
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="900" />
         </font>
-    </family>
+   </family>
 
 
     <!-- Note that aliases must come after the fonts they reference. -->
@@ -218,6 +218,7 @@
         <axis tag="wdth" stylevalue="75" />
         <axis tag="wght" stylevalue="900" />
       </font>
+    </family>
     <alias name="sans-serif-condensed-light" to="sans-serif-condensed" weight="300" />
     <alias name="sans-serif-condensed-medium" to="sans-serif-condensed" weight="500" />
 
@@ -429,14 +430,6 @@
         <font weight="400" style="normal" postScriptName="NotoNaskhArabicUI">
             NotoNaskhArabicUI-Regular.ttf
         </font>
-        <font weight="700" style="normal">NotoNaskhArabicUI-Bold.ttf</font>
-    </family>
-    <family lang="ug" variant="elegant">
-        <font weight="400" style="normal" postScriptName="NotoNaskhArabic">NotoNaskhArabic-Regular.ttf</font>
-        <font weight="700" style="normal">NotoNaskhArabic-Bold.ttf</font>
-    </family>
-    <family lang="ug" variant="compact">
-        <font weight="400" style="normal" postScriptName="NotoNaskhArabicUI">NotoNaskhArabicUI-Regular.ttf</font>
         <font weight="700" style="normal">NotoNaskhArabicUI-Bold.ttf</font>
     </family>
     <family lang="und-Ethi">
@@ -715,11 +708,22 @@
         <font weight="700" style="normal">SECMalayalamUI-Bold.otf</font>
     </family>
     <family lang="und-Beng" variant="elegant">
-        <font weight="400" style="normal" postScriptName="SECBengali-Regular">
-            SECBengali-Regular.otf
+        <font weight="400" style="normal" postScriptName="NotoSansBengali-Regular">
+            NotoSansBengali-VF.ttf
+            <axis tag="wght" stylevalue="400"/>
         </font>
-        <font weight="500" style="normal">SECBengali-Medium.otf</font>
-        <font weight="700" style="normal">SECBengali-Bold.otf</font>
+        <font weight="500" style="normal" postScriptName="NotoSansBengali-Regular">
+            NotoSansBengali-VF.ttf
+            <axis tag="wght" stylevalue="500"/>
+        </font>
+        <font weight="600" style="normal" postScriptName="NotoSansBengali-Regular">
+            NotoSansBengali-VF.ttf
+            <axis tag="wght" stylevalue="600"/>
+        </font>
+        <font weight="700" style="normal" postScriptName="NotoSansBengali-Regular">
+            NotoSansBengali-VF.ttf
+            <axis tag="wght" stylevalue="700"/>
+        </font>
         <font weight="400" style="normal" fallbackFor="serif"
               postScriptName="NotoSerifBengali-Regular">NotoSerifBengali-VF.ttf
             <axis tag="wght" stylevalue="400"/>
@@ -738,11 +742,22 @@
         </font>
     </family>
     <family lang="und-Beng" variant="compact">
-        <font weight="400" style="normal" postScriptName="SECBengaliUI-Regular">
-            SECBengaliUI-Regular.otf
+        <font weight="400" style="normal" postScriptName="NotoSansBengaliUI-Regular">
+            NotoSansBengaliUI-VF.ttf
+            <axis tag="wght" stylevalue="400"/>
         </font>
-        <font weight="500" style="normal">SECBengaliUI-Medium.otf</font>
-        <font weight="700" style="normal">SECBengaliUI-Bold.otf</font>
+        <font weight="500" style="normal" postScriptName="NotoSansBengaliUI-Regular">
+            NotoSansBengaliUI-VF.ttf
+            <axis tag="wght" stylevalue="500"/>
+        </font>
+        <font weight="600" style="normal" postScriptName="NotoSansBengaliUI-Regular">
+            NotoSansBengaliUI-VF.ttf
+            <axis tag="wght" stylevalue="600"/>
+        </font>
+        <font weight="700" style="normal" postScriptName="NotoSansBengaliUI-Regular">
+            NotoSansBengaliUI-VF.ttf
+            <axis tag="wght" stylevalue="700"/>
+        </font>
     </family>
     <family lang="und-Telu" variant="elegant">
         <font weight="400" style="normal" postScriptName="SECTelugu">
@@ -960,6 +975,10 @@
             NotoSansThaana-Regular.ttf
         </font>
         <font weight="700" style="normal">NotoSansThaana-Bold.ttf</font>
+    </family>
+    <family lang="und-Mymr">
+        <font weight="400" style="normal">SamsungMyanmarShan-Regular.ttf</font>
+        <font weight="700" style="normal">SamsungMyanmarShan-Bold.ttf</font>
     </family>
     <family lang="und-Cham">
         <font weight="400" style="normal" postScriptName="NotoSansCham">NotoSansCham-Regular.ttf
