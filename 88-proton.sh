@@ -11,7 +11,7 @@
 
 list_files() {
 cat <<EOF
-etc/fonts.xml
+etc/font_fallback.xml
 fonts/FiraCode-Regular.ttf
 fonts/InterVariable-Italic.ttf
 fonts/InterVariable.ttf
