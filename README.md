@@ -1,22 +1,24 @@
 # ProtonAOSP Stuff
 
-Credit:
-- [Base](https://github.com/kdrag0n/inter-font-pack) for all base of this repo
-- [Inter](https://github.com/rsms/inter) for most text - 4.1
-- [Fira Code](https://github.com/tonsky/FiraCode) for monospace text - 6.2
-- [Source Serif](https://github.com/adobe-fonts/source-serif) for serif text - 4.005
-- [Config](https://github.com/LineageOS/android_frameworks_base/blob/lineage-22.1/data/fonts/font_fallback.xml) font_fallback.xml
-
 Inter was chosen as the UI font for its cleanliness and legibility; it is neutral and looks similar to Apple's San Francisco UI font. Because it was specifically designed for use in GUIs, it is a great replacement for Roboto on Android.
 
 Source Serif was chosen as the serif font because it is one of the best open-source fonts that complement Inter's style.
 
-All fonts included in this repo are open-source and licensed under the SIL Open Font License.
+All fonts included in this repo are open-source and licensed under the [SIL Open Font License.](https://openfontlicense.org/)
+
+- [Inter](https://github.com/rsms/inter) for most text [(4.1).](https://github.com/rsms/inter/releases/tag/v4.1)
+- [Fira Code](https://github.com/tonsky/FiraCode) for monospace text [(6.2).](https://github.com/tonsky/FiraCode/releases/tag/6.2)
+- [Source Serif](https://github.com/adobe-fonts/source-serif) for serif text [(4.005).](https://github.com/adobe-fonts/source-serif/releases/tag/4.005R)
 
 ## Compatibility
 
-Compatible with Android 15 (i.e not costum vendor: MIUI, OneUI, etc). This fixes some issues in third-party apps, such Firefox falling back to Fira Sans instead of using the new fonts.
+To maximize compatibility, all font names have been patched to match the original fonts. This fixes some issues in third-party apps, such Firefox falling back to Fira Sans instead of using the new fonts.
 
-Additionally, Roboto will be used as a fallback for characters not supported by Inter. A fallback variant and registering it as a proper fallback rather than modifying the Inter font itself. As a result, most text will be rendered with the original Inter font, and unsupported characters will still be displayed with proper metrics and hinting.
+Additionally, Roboto will be used as a fallback for characters not supported by Inter. This way, unsupported characters are still displayed with the correct metrics and hints.
+____
 
-Tested on LineageOS 22.1.
+Compatible and tested with pure clean Android 15 (LineageOS 22.1) and most likely won't work with vendor ROMs like HyperOS, ColorOS etc.
+
+## Credits
+
+[kdrag0n/inter-font-pack](https://github.com/kdrag0n/inter-font-pack) for all base of this repo.
