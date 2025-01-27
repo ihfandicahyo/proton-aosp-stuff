@@ -88,11 +88,11 @@
 <familyset>
     <!-- first font is default -->
     <family name="sans-serif">
-        <font supportedAxes="wght">InterVariable.ttf
+        <font supportedAxes="wght">Roboto-Regular.ttf
             <axis tag="opsz" stylevalue="18.0" />
             <axis tag="wdth" stylevalue="100" />
         </font>
-        <font style="italic" supportedAxes="wght">InterVariable-Italic.ttf
+        <font style="italic" supportedAxes="wght">Roboto-Italic.ttf
             <axis tag="opsz" stylevalue="18.0" />
             <axis tag="wdth" stylevalue="100" />
         </font>
@@ -109,13 +109,8 @@
     <alias name="verdana" to="sans-serif" />
 
     <family name="sans-serif-condensed">
-      <font supportedAxes="wght">InterVariable.ttf
-          <axis tag="opsz" stylevalue="18.0" />
-          <axis tag="wdth" stylevalue="75" />
-      </font>
-      <font style="italic" supportedAxes="wght">InterVariable-Italic.ttf
-          <axis tag="opsz" stylevalue="18.0" />
-          <axis tag="wdth" stylevalue="75" />
+      <font supportedAxes="wght,ital">Roboto-Regular.ttf
+        <axis tag="wdth" stylevalue="75" />
       </font>
     </family>
     <alias name="sans-serif-condensed-light" to="sans-serif-condensed" weight="300" />
@@ -175,7 +170,7 @@
          This way, unsupported characters are still displayed with the correct metrics and hints.
     -->
     <family>
-        <font supportedAxes="wght,ital">Roboto-Regular.ttf
+        <font supportedAxes="wght,ital">Roboto-Fallback.ttf
           <axis tag="wdth" stylevalue="100" />
         </font>
     </family>
