@@ -13,8 +13,9 @@ list_files() {
 cat <<EOF
 etc/font_fallback.xml
 fonts/FiraCode-Regular.ttf
-fonts/InterVariable-Italic.ttf
-fonts/InterVariable.ttf
+fonts/Roboto-Regular.ttf
+fonts/Roboto-Italic.ttf
+fonts/Roboto-Fallback.ttf
 fonts/SourceSerif4-Bold.ttf
 fonts/SourceSerif4-BoldIt.ttf
 fonts/SourceSerif4-It.ttf
