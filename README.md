@@ -12,7 +12,7 @@ All fonts included in this repo are open-source and licensed under the [SIL Open
 
 ## Compatibility
 
-To maximize compatibility, all font names have been patched to match the original fonts. This fixes some issues in third-party apps, such Firefox falling back to Fira Sans instead of using the new fonts.
+To maximise compatibility, font file names have been changed to match the default fonts. This fixes problems in some third-party applications.
 
 Additionally, Roboto will be used as a fallback for characters not supported by Inter. This way, unsupported characters are still displayed with the correct metrics and hints.
 ____
