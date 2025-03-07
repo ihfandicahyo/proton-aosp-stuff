@@ -84,6 +84,59 @@
     </family>
     <alias name="source-sans-pro-semi-bold" to="source-sans-pro" weight="600"/>
 
+    <!-- Replace Google Sans to Inter in Google Pixel OS.
+         Some fonts cannot be adjusted automatically and require the metrics to be set manually.
+    -->
+    <alias name="google-sans" to="sans-serif" />
+ 
+    <family customizationType="new-named-family" name="google-sans-medium">
+      <font weight="470" style="normal">Roboto-Regular.ttf
+        <axis tag="opsz" stylevalue="14"/>
+        <axis tag="wght" stylevalue="470"/>
+      </font>
+    </family>
+
+    <family customizationType="new-named-family" name="google-sans-bold">
+      <font weight="670" style="normal">Roboto-Regular.ttf
+        <axis tag="opsz" stylevalue="14"/>
+        <axis tag="wght" stylevalue="670"/>
+      </font>
+    </family>
+
+    <alias name="google-sans-text" to="sans-serif" />
+
+    <alias name="google-sans-text-italic" to="sans-serif" />
+
+    <family customizationType="new-named-family" name="google-sans-text-medium">
+      <font weight="470" style="normal">Roboto-Regular.ttf
+        <axis tag="opsz" stylevalue="14"/>
+        <axis tag="wght" stylevalue="470"/>
+      </font>
+    </family>
+
+    <family customizationType="new-named-family" name="google-sans-text-medium-italic">
+      <font weight="470" style="italic">Roboto-Italic.ttf
+        <axis tag="opsz" stylevalue="14"/>
+        <axis tag="wght" stylevalue="470"/>
+      </font>
+    </family>
+
+    <family customizationType="new-named-family" name="google-sans-text-bold">
+      <font weight="670" style="normal">Roboto-Regular.ttf
+        <axis tag="opsz" stylevalue="14"/>
+        <axis tag="wght" stylevalue="670"/>
+      </font>
+    </family>
+
+    <family customizationType="new-named-family" name="google-sans-text-bold-italic">
+      <font weight="670" style="italic">Roboto-Italic.ttf
+        <axis tag="opsz" stylevalue="14"/>
+        <axis tag="wght" stylevalue="670"/>
+      </font>
+    </family>
+
+    <alias name="google-sans-flex" to="sans-serif" />
+
     <!-- Fallback fonts come up here. -->
 
     <!-- Roboto will be used as a fallback for characters not supported by Inter.
