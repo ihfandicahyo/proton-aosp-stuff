@@ -21,6 +21,7 @@ fonts/NotoSerif-Regular.ttf
 fonts/Roboto-Fallback.ttf
 fonts/Roboto-Italic.ttf
 fonts/Roboto-Regular.ttf
+product/etc/fonts_customization.xml
 EOF
 }
 
