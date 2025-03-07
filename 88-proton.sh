@@ -12,14 +12,15 @@
 list_files() {
 cat <<EOF
 etc/font_fallback.xml
-fonts/FiraCode-Regular.ttf
-fonts/Roboto-Regular.ttf
-fonts/Roboto-Italic.ttf
+fonts/CutiveMono.ttf
+fonts/DroidSansMono.ttf
+fonts/NotoSerif-Bold.ttf
+fonts/NotoSerif-BoldItalic.ttf
+fonts/NotoSerif-Italic.ttf
+fonts/NotoSerif-Regular.ttf
 fonts/Roboto-Fallback.ttf
-fonts/SourceSerif4-Bold.ttf
-fonts/SourceSerif4-BoldIt.ttf
-fonts/SourceSerif4-It.ttf
-fonts/SourceSerif4-Regular.ttf
+fonts/Roboto-Italic.ttf
+fonts/Roboto-Regular.ttf
 EOF
 }
 

@@ -1,92 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-    In this file, all fonts without names are added to the default list.
-    Fonts are chosen based on a match: full BCP-47 language tag including
-    script, then just language, and finally order (the first font containing
-    the glyph).
-
-    Order of appearance is also the tiebreaker for weight matching. This is
-    the reason why the 900 weights of Roboto precede the 700 weights - we
-    prefer the former when an 800 weight is requested. Since bold spans
-    effectively add 300 to the weight, this ensures that 900 is the bold
-    paired with the 500 weight, ensuring adequate contrast.
-
-
-    The font_fallback.xml defines the list of font used by the system.
-
-    `familyset` node:
-      A `familyset` element must be a root node of the font_fallback.xml. No attributes are allowed
-      to `familyset` node.
-      The `familyset` node can contains `family` and `alias` nodes. Any other nodes will be ignored.
-
-    `family` node:
-      A `family` node defines a single font family definition.
-      A font family is a set of fonts for drawing text in various styles such as weight, slant.
-      There are three types of families, default family, named family and locale fallback family.
-
-      The default family is a special family node appeared the first node of the `familyset` node.
-      The default family is used as first priority fallback.
-      Only `name` attribute can be used for default family node. If the `name` attribute is
-      specified, This family will also works as named family.
-
-      The named family is a family that has name attribute. The named family defines a new fallback.
-      For example, if the name attribute is "serif", it creates serif fallback. Developers can
-      access the fallback by using Typeface#create API.
-      The named family can not have attribute other than `name` attribute. The `name` attribute
-      cannot be empty.
-
-      The locale fallback family is a font family that is used for fallback. The fallback family is
-      used when the named family or default family cannot be used. The locale fallback family can
-      have `lang` attribute and `variant` attribute. The `lang` attribute is an optional comma
-      separated BCP-47i language tag. The `variant` is an optional attribute that can be one one
-      `element`, `compact`. If a `variant` attribute is not specified, it is treated as default.
-
-    `alias` node:
-      An `alias` node defines a alias of named family with changing weight offset. An `alias` node
-      can have mandatory `name` and `to` attribute and optional `weight` attribute. This `alias`
-      defines new fallback that has the name of specified `name` attribute. The fallback list is
-      the same to the fallback that of the name specified with `to` attribute. If `weight` attribute
-      is specified, the base weight offset is shifted to the specified value. For example, if the
-      `weight` is 500, the output text is drawn with 500 of weight.
-
-    `font` node:
-      A `font` node defines a single font definition. There are two types of fonts, static font and
-      variable font.
-
-      A static font can have `weight`, `style`, `index` and `postScriptName` attributes. A `weight`
-      is a mandatory attribute that defines the weight of the font. Any number between 0 to 1000 is
-      valid. A `style` is a mandatory attribute that defines the style of the font. A 'style'
-      attribute can be `normal` or `italic`. An `index` is an optional attribute that defines the
-      index of the font collection. If this is not specified, it is treated as 0. If the font file
-      is not a font collection, this attribute is ignored. A `postScriptName` attribute is an
-      optional attribute. A PostScript name is used for identifying target of system font update.
-      If this is not specified, the system assumes the filename is same to PostScript name of the
-      font file. For example, if the font file is "Roboto-Regular.ttf", the system assume the
-      PostScript name of this font is "Roboto-Regular".
-
-      A variable font can be only defined for the variable font file. A variable font can have
-      `axis` child nodes for specifying axis values. A variable font can have all attribute of
-      static font and can have additional `supportedAxes` attribute. A `supportedAxes` attribute
-      is a comma separated supported axis tags. As of Android V, only `wght` and `ital` axes can
-      be specified.
-
-      If `supportedAxes` attribute is not specified, this `font` node works as static font of the
-      single instance of variable font specified with `axis` children.
-
-      If `supportedAxes` attribute is specified, the system dynamically create font instance for the
-      given weight and style value. If `wght` is specified in `supportedAxes` attribute the `weight`
-      attribute and `axis` child that has `wght` tag become optional and ignored because it is
-      determined by system at runtime. Similarly, if `ital` is specified in `supportedAxes`
-      attribute, the `style` attribute and `axis` child that has `ital` tag become optional and
-      ignored.
-
-    `axis` node:
-      An `axis` node defines a font variation value for a tag. An `axis` node can have two mandatory
-      attributes, `tag` and `value`. If the font is variable font and the same tag `axis` node is
-      specified in `supportedAxes` attribute, the style value works like a default instance.
--->
 <familyset>
-    <!-- first font is default -->
+    <!-- The first font is the default. However, some apps ignore this and force-checking for Roboto.
+         To avoid this behavior, we'll spoof not only the filename but also the font's metadata.
+    -->
     <family name="sans-serif">
         <font supportedAxes="wght">Roboto-Regular.ttf
             <axis tag="opsz" stylevalue="18.0" />
@@ -97,6 +13,8 @@
             <axis tag="wdth" stylevalue="100" />
         </font>
     </family>
+
+	<alias name="roboto-flex" to="sans-serif" />
 
     <!-- Note that aliases must come after the fonts they reference. -->
     <alias name="sans-serif-thin" to="sans-serif" weight="100" />
@@ -117,10 +35,10 @@
     <alias name="sans-serif-condensed-medium" to="sans-serif-condensed" weight="500" />
 
     <family name="serif">
-        <font weight="400" style="normal" postScriptName="NotoSerif">SourceSerif4-Regular.ttf</font>
-        <font weight="700" style="normal">SourceSerif4-Bold.ttf</font>
-        <font weight="400" style="italic">SourceSerif4-It.ttf</font>
-        <font weight="700" style="italic">SourceSerif4-BoldIt.ttf</font>
+        <font weight="400" style="normal" postScriptName="NotoSerif">NotoSerif-Regular.ttf</font>
+        <font weight="700" style="normal">NotoSerif-Bold.ttf</font>
+        <font weight="400" style="italic">NotoSerif-Italic.ttf</font>
+        <font weight="700" style="italic">NotoSerif-BoldItalic.ttf</font>
     </family>
     <alias name="serif-bold" to="serif" weight="700" />
     <alias name="times" to="serif" />
@@ -133,13 +51,13 @@
     <alias name="ITC Stone Serif" to="serif" />
 
     <family name="monospace">
-        <font weight="400" style="normal">FiraCode-Regular.ttf</font>
+        <font weight="400" style="normal">DroidSansMono.ttf</font>
     </family>
     <alias name="sans-serif-monospace" to="monospace" />
     <alias name="monaco" to="monospace" />
 
     <family name="serif-monospace">
-        <font weight="400" style="normal" postScriptName="CutiveMono-Regular">FiraCode-Regular.ttf</font>
+        <font weight="400" style="normal" postScriptName="CutiveMono-Regular">CutiveMono.ttf</font>
     </family>
     <alias name="courier" to="serif-monospace" />
     <alias name="courier new" to="serif-monospace" />
@@ -166,6 +84,8 @@
     </family>
     <alias name="source-sans-pro-semi-bold" to="source-sans-pro" weight="600"/>
 
+    <!-- Fallback fonts come up here. -->
+
     <!-- Roboto will be used as a fallback for characters not supported by Inter.
          This way, unsupported characters are still displayed with the correct metrics and hints.
     -->
@@ -175,7 +95,6 @@
         </font>
     </family>
 
-    <!-- fallback fonts -->
     <family lang="und-Arab" variant="elegant">
         <font weight="400" style="normal" postScriptName="NotoNaskhArabic">
             NotoNaskhArabic-Regular.ttf

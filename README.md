@@ -12,7 +12,7 @@ All fonts included in this repo are open-source and licensed under the [SIL Open
 
 ## Compatibility
 
-To maximise compatibility, font file names have been changed to match the default fonts. This fixes problems in some third-party applications.
+To maximize compatibility, all font names have been patched to match the original fonts. This fixes some issues in third-party apps, such as Firefox.
 
 Additionally, Roboto will be used as a fallback for characters not supported by Inter. This way, unsupported characters are still displayed with the correct metrics and hints.
 ____
@@ -21,4 +21,4 @@ Compatible and tested with pure clean Android 15 (LineageOS 22.1) and most likel
 
 ## Credits
 
-[kdrag0n/inter-font-pack](https://github.com/kdrag0n/inter-font-pack) for all base of this repo.
+[kdrag0n/inter-font-pack](https://github.com/kdrag0n/inter-font-pack) for an idea and all basis of this repo.
