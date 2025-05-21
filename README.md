@@ -16,7 +16,7 @@ To maximize compatibility, all font names have been patched to match the origina
 
 Additionally, Roboto will be used as a fallback for characters not supported by Inter. This way, unsupported characters are still displayed with the correct metrics and hints.
 
-Since the Pixel stock uses Google Sans for UI and Google apps, and this implementation is a bit hard-coded and doesn't use auto-adjustment in some cases, I had to manually set the most eye-pleasing font metrics for certain styles (see [font_fallback.xml](./font_fallback)). You can change them to your liking by changing the values where they're set.
+Since the Pixel stock uses Google Sans for UI and Google apps, and this implementation is a bit hard-coded and doesn't use auto-adjustment in some cases, I had to manually set the most eye-pleasing font metrics for certain styles (see [font_fallback.xml](./font_fallback.xml#L87)). You can change them to your liking by changing the values where they're set.
 ____
 
 Compatible and tested with stock Pixel OS based on Android 15 QPR1 (AP4A.250205.002).
