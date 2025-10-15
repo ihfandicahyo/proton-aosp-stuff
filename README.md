@@ -17,7 +17,7 @@ To maximize compatibility, all font names have been patched to match the origina
 Additionally, Roboto will be used as a fallback for characters not supported by Inter. This way, unsupported characters are still displayed with the correct metrics and hints.
 ____
 
-Compatible and tested with pure clean Android 15 (LineageOS 22.1) and most likely won't work with vendor ROMs like HyperOS, ColorOS etc.
+Compatible and tested with pure clean Android 16 (LineageOS 23) and most likely won't work with vendor ROMs like HyperOS, ColorOS etc. (NOT TESTED YET)
 
 ## Credits
 
