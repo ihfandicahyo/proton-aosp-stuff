@@ -12,6 +12,7 @@
 list_files() {
 cat <<EOF
 etc/font_fallback.xml
+etc/fonts.xml
 fonts/CutiveMono.ttf
 fonts/DroidSansMono.ttf
 fonts/NotoSerif-Bold.ttf
